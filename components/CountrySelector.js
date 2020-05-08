@@ -9,7 +9,7 @@ export default function CountrySelector() {
   if (loading) return <p>Loading...</p>;
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error...</p>;
-  if(!countries) return <p>Loading...</p>;
+  // if(!countries) return <p>Loading...</p>;
 
   return (
     <div>
@@ -20,10 +20,10 @@ export default function CountrySelector() {
         }}
       >
         {Object.entries(countries.countries).map(([country, code]) => (
-          <option
-            // selected={selectedCountry === countries.iso3[code]}
+           <option
+            selected={selectedCountry === countries.iso3[code]}
             key={code}
-            // value={countries.iso3[code]}
+             value={countries.iso3[code]}
             
           >
             {country}
