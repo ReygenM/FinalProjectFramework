@@ -4,6 +4,9 @@ App ini merupakan covid-19 tracker,yang pada layar utamanya menampilkan jumlah k
 Running Instruction:
 1.Open cmd
 2.cd ke directory project
-3.Run app dengan menjalankan script : npm start 
+3.Run app dalam development mode dengan menjalankan script : npm start (app akan terbuka pada  http://localhost:3000 dalam default browser)
+4.Jika ingin melihatnya di browser lain buka http://localhost:3000 di dalam browser lain.
+
+
 
 
