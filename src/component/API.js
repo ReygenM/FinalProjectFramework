@@ -28,7 +28,7 @@ export const fetchCountries = async () => {
 
 export const fetchFirstCountry = () => {
     try {
-        //fetch then 
+        
         return fetch(`${url}/countries`).then(res => res.json()).then(data => data.countries[0].name)
     } catch (error) {
         console.log(error)
