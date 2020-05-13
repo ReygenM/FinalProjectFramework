@@ -24,7 +24,6 @@ const Display = ({ data: { confirmed, recovered, deaths }, country }) => {
 
   return (
     <StatGrid>
-      {/* <h2>{country ? `Negara: ${country}` : `Global`}</h2> */}
       <StatBlock>
         <h5 style={{textAlign:'center'}}>Positif</h5>
         <h5 style={{textAlign:'center'}}>{confirmed.value}</h5>
